@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --screen-red: #61090b;
+    --screen-dark: #000000;
+    --primary-color: #61090b;
+    --background-color: #000000;
+    --text-color: #ffffff; /* لون النصوص */
+    --bg-color: #ffffff; /* خلفية الأقسام */
+    --button-hover: #8b0d11; /* لون زر الهوفر */
+    --overlay-color: rgba(0, 0, 0, 0.5); /* تغطية للفيديو */
+
+
+  }
+}
+
+.bg-screen-red {
+  background-color: var(--screen-red);
+}
+
+.bg-screen-dark {
+  background-color: var(--screen-dark);
+}
+
+/* الوضع الفاتح /
+.light-mode {
+  --primary-color: #61090b;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+/ الوضع الداكن /
+.dark-mode {
+  --primary-color: #61090b;
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
+
+/ استخدام المتغيرات */
+/* استخدام المتغيرات */
+/* body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+} */
+
+
+
